@@ -5,7 +5,7 @@ os:
 env:
   - TOOLSET=gcc
 #  - TOOLSET=darwin
-#  - TOOLSET=clang
+  - TOOLSET=clang
 matrix:
   exclude:
     - os: linux

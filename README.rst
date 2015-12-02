@@ -6,6 +6,10 @@ Commands to Compilation Database
 Overview
 --------
 
+.. image:: https://travis-ci.org/tee3/commands_to_compilation_database.svg?branch=devel-travis-ci
+   :alt: Build Status
+   :target: https://travis-ci.org/tee3/commands_to_compilation_database
+
 This is a program to generate a compilation database from the output
 of a build tool.  It has built in support for the output of the
 ``clang`` toolset for Boost.Build, simple ``make``, and provides a
